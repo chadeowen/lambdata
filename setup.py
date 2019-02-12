@@ -6,7 +6,8 @@ import setuptools
 
 REQUIRED = [
     "numpy",
-    "pandas"
+    "pandas",
+    "scitkit-learn",
 ]
 
 with open("README.md", "r") as fh:
@@ -14,7 +15,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-chadeowen",
-    version="0.0.2",
+    version="0.0.3",
     author="chadeowen",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
